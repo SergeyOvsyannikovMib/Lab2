@@ -1,3 +1,10 @@
+//
+//  Lab2app.swift
+//  Lab2
+//
+//  Created by vivor on 29.02.2024.
+//
+
 import SwiftUI
 
 @main
@@ -21,6 +28,15 @@ struct ContentView: View {
             ScrollView{
                 VStack {
                     Header()
+                    Spacer(minLength: 40)
+                    DoctorInfo()
+                    Spacer(minLength: 20)
+                    Search()
+                    Spacer(minLength: 2)
+                    InfoButtons()
+                    Spacer(minLength: 20)
+                    NearDoctors()
+                    Spacer(minLength: 100)
                 }
             }
             VStack{
